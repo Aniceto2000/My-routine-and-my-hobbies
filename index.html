@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: lightblue;">
+    <audio autoplay id="meuAudio">
+        <source src="./audio/all-of-a-sudden-everything-becomes-alright_tagccYPQ.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+      
+      <script>
+        const audio = document.getElementById("meuAudio");
+        audio.volume = 0.2; // volume bem baixinho (10%)
+      </script>
+    <style>
+        table{
+            border: solid 2px;
+            text-align: center;
+            -webkit-box-shadow: 1px 4px 34px 4px #00FFFF; 
+box-shadow: 1px 4px 34px 4px #00FFFF;
+            border-radius: 5px;
+        }
+        table thead tr th{
+            border: solid 1px;
+            border-radius: 5px;
+        }
+        table tbody tr td{
+            border: groove 3px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            background-color: rgba(0, 200, 255, 0.2);
+        }
+    </style>
+
+    <h1 style="text-align: center;">English Work</h1>
+
+    <h2 style="text-align: center; border: solid 1px; border-radius: 5px; width: fit-content; margin: 0 auto; background-color: rgba(0, 200, 255, 0.5);">
+        My Routine and hobbies </h2>
+    <br>
+
+    <table  align="center">
+
+        <thead>
+
+                <tr>
+                    <th>Image</th>
+                    <th>Description</th>
+                </tr>
+
+        </thead>
+
+        <tbody>
+            
+            <tr>
+                <td colspan=""><img style="border-radius: 5px;" width="200" height="300" src="./image/Setup.JPG" alt=""></td>
+                <td>I really like play games</td>
+            </tr>
+
+            <tr>
+                <td><img style="border-radius: 5px;" width="200" src="./image/Bike.jpg" alt="Imagem de bicicleta"></td>
+                <td>I ride bike in my free time</td>
+            </tr>
+
+            <tr>
+                <td><img style="border-radius: 5px;" width="200" src="./image/VsCode.png" alt="Imagem de progrmação no VS code"></td>
+                <td>I study programming</td>
+            </tr>
+
+            <tr>
+                <td><img style="border-radius: 5px;" width="200" src="./image/Travel.jpg" alt=""></td>
+                <td>I travel to countryside with my family on holidays</td>
+            </tr>
+
+            <tr>
+                <td><img style="border-radius: 5px;" width="200" height="250" src="./image/Serie.png" alt=""></td>
+                <td>I watch series when i'm bored</td>
+            </tr>
+
+            <tr>
+                <td><img style="border-radius: 5px;" width="200" src="./image/Dog.jpg" alt=""></td>
+                <td>I walked with my dog sometimes</td>
+            </tr>
+            
+        </tbody>
+
+    </table>
+</body>
+</html>
